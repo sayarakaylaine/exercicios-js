@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média de Alunos</title>
+</head>
+<!--Faça um algoritmo que receba a matrícula e duas notas do aluno. Calcular a média e mostrar a matrícula do aluno com as 
+    seguintes mensagens de acordo com os dados a seguir: Fazer um vetor de objeto de aluno. O objeto aluno deve ter nome, 
+    nota1, nota2 e nota3. Ao final mostre a média geral dos alunos.-->
+
+<body>
+    <h1>Calculadora de Média de Alunos</h1>
+
+        <label for="matricula">Matrícula do Aluno:</label><br>
+        <input type="text" id="matricula" name="matricula"><br><br>
+
+        <label for="nota1">Nota 1:</label><br>
+        <input type="number" id="nota1" name="nota1"><br><br>
+
+        <label for="nota2">Nota 2:</label><br>
+        <input type="number" id="nota2" name="nota2"><br><br>
+
+        <button type="button" onclick="adicionarAluno()">Adicionar Aluno</button>
+
+    <h2>Alunos Adicionados:</h2>
+    <ul id="listaAlunos"></ul>
+
+    <h2>Média Geral dos Alunos:</h2>
+    <p id="mediaGeral"></p>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

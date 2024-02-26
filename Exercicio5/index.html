@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachar Conta do Bar</title>
+</head>
+<!--/5. Três amigos, Carlos, André e Felipe. decidiram rachar igualmente a conta de um bar. 
+    Faça um algoritmo para ler o valor total da conta e imprimir quanto cada um deve pagar, 
+    mas faça com que Carlos e André não paguem centavos. Ex: uma conta de R$101,53 resulta 
+    em R$33,00 para Carlos, R$33,00 para André e R$35,53 para Felipe.-->
+<body>
+    <h2>Rachar Conta do Bar</h2>
+
+        <label for="valorTotal">Valor Total da Conta:</label><br>
+        <input type="number" id="valorTotal" name="valorTotal" step="0.01"><br><br>
+
+        <button type="button" onclick="calcularPagamento()">Calcular Pagamento</button>
+    
+    <h2>Valor que Cada Amigo Deve Pagar:</h2>
+    <p id="carlosPagamento">Carlos: R$ 0,00</p>
+    <p id="andrePagamento">André: R$ 0,00</p>
+    <p id="felipePagamento">Felipe: R$ 0,00</p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

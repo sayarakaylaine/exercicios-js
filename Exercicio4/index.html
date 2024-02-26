@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Vendas de Camisetas</title>
+</head>
+<!--//4. Uma fábrica de camisetas produz os tamanhos pequeno, médio e grande, cada uma sendo vendida respectivamente 
+    por 10, 12 e 15 reais. Construa um algoritmo em que o usuário forneça a quantidade de camisetas pequenas, 
+    médias e grandes referentes a uma venda, e a máquina informe quanto será o valor arrecadado.-->
+<body>
+    <h2>Calculadora de Venda de Camisetas</h2>
+
+        <label for="quantidadePequenas">Quantidade de Camisetas Pequenas:</label><br>
+        <input type="number" id="quantidadePequenas" name="quantidadePequenas" value="0"><br><br>
+
+        <label for="quantidadeMedias">Quantidade de Camisetas Médias:</label><br>
+        <input type="number" id="quantidadeMedias" name="quantidadeMedias" value="0"><br><br>
+
+        <label for="quantidadeGrandes">Quantidade de Camisetas Grandes:</label><br>
+        <input type="number" id="quantidadeGrandes" name="quantidadeGrandes" value="0"><br><br>
+
+        <button type="button" onclick="calcularValor()">Calcular Valor</button>
+
+    <h2>Valor Arrecadado:</h2>
+    <p id="valorArrecadado">R$ 0,00</p>
+
+    <script src="script.js"></script>  
+    
+</body>
+</html>
