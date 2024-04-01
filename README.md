@@ -1,2 +1,2 @@
-# Exercícios de Javascript
+# Exercícios utilizando Javascript
 Exercícios realizados na disciplina de Programação Web 2 para testes de conhecimento sobre o uso do JavaScript.
