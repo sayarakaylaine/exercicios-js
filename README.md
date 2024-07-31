@@ -1,2 +1,2 @@
-# ExercíciosJavascript
-Exercícios realizados na disciplina de Programação Web 2 para testes de conhecimento sobre o uso do JavaScript.
+# ExercíciosJS
+Exercícios realizados na disciplina de Programação Web II para testes de conhecimento.
