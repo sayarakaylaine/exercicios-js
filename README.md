@@ -15,5 +15,4 @@ Este projeto reúne diversos exercícios práticos em JavaScript, abordando conc
 **Tecnologias Utilizadas:**
 
 * JavaScript (ES6+) – Lógica e funcionalidades
-* HTML & CSS (se aplicável) – Estrutura e estilização dos exercícios
-* Node.js (se houver scripts backend)
+* HTML & CSS – Estrutura e estilização dos exercícios
