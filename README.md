@@ -1,4 +1,4 @@
-# Exercicios JavaScript
+# Exercícios JavaScript
 Repositório contendo exercícios de JavaScript realizados na disciplina de Programação Web II, com o objetivo de aprimorar e testar conhecimentos na linguagem.
 
 **Descrição:**
